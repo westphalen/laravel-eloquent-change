@@ -1,0 +1,33 @@
+{
+  "name": "westphalen/laravel-eloquent-change",
+  "description": "Simple Eloquent Change class for Laravel.",
+  "authors": [
+    {
+      "name": "Sune Westphalen",
+      "email": "sune@westphalen.me"
+    }
+  ],
+  "license": "MIT",
+  "type": "package",
+  "require": {
+    "php": ">=7.0",
+    "alsofronie/eloquent-uuid": "dev-master"
+  },
+  "require-dev": {
+    "barryvdh/laravel-ide-helper": "^2.4",
+    "laravel/framework": "~5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Westphalen\\Laravel\\Change\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "secure-http": false
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
